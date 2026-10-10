@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Sevetco" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">#1F3864</item>
+        <item name="android:navigationBarColor">#FFFFFF</item>
+        <item name="android:windowBackground">#F4F6FA</item>
+        <item name="android:colorPrimary">@color/azul</item>
+        <item name="android:colorPrimaryDark">@color/azul</item>
+        <item name="android:colorAccent">@color/azul</item>
+        <item name="android:colorControlActivated">@color/azul</item>
+        <item name="android:colorControlHighlight">@color/azul_claro</item>
+        <!-- El calendario y el selector de hora usan el mismo azul de la app -->
+        <item name="android:datePickerStyle">@style/SelectorFecha</item>
+        <item name="android:timePickerStyle">@style/SelectorHora</item>
+    </style>
+
+    <style name="SelectorFecha" parent="@android:style/Widget.Material.DatePicker">
+        <item name="android:colorAccent">@color/azul</item>
+    </style>
+
+    <!-- Modo "spinner": dos columnas simples (hora y minutos) en lugar del reloj. -->
+    <style name="SelectorHora" parent="@android:style/Widget.Material.TimePicker">
+        <item name="android:timePickerMode">spinner</item>
+        <item name="android:colorAccent">@color/azul</item>
+    </style>
+</resources>
+

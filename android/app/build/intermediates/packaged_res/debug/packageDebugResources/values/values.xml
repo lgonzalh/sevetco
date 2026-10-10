@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="azul">#1F3864</color>
+    <color name="azul_claro">#EAEEF7</color>
+    <color name="icono_fondo">#FFFFFF</color>
+    <string name="app_name">SEVETCO</string>
+    <string name="default_web_client_id" translatable="false">254205437918-qbi5s31mnqept58p2ga8n226prslh6oj.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">254205437918</string>
+    <string name="google_api_key" translatable="false">AIzaSyCQBtcZ6q4HnmBiehVusLVLg3Xn9O5n5Yg</string>
+    <string name="google_app_id" translatable="false">1:254205437918:android:bd1393060f8830ac325f4f</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCQBtcZ6q4HnmBiehVusLVLg3Xn9O5n5Yg</string>
+    <string name="google_maps_key">AIzaSyA8DulmTdAl07MJ8UOUT5BpGEvqSbbH3Uc</string>
+    <string name="google_storage_bucket" translatable="false">sevetco-dd27e.firebasestorage.app</string>
+    <string name="project_id" translatable="false">sevetco-dd27e</string>
+    <style name="SelectorFecha" parent="@android:style/Widget.Material.DatePicker">
+        <item name="android:colorAccent">@color/azul</item>
+    </style>
+    <style name="SelectorHora" parent="@android:style/Widget.Material.TimePicker">
+        <item name="android:timePickerMode">spinner</item>
+        <item name="android:colorAccent">@color/azul</item>
+    </style>
+    <style name="Theme.Sevetco" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">#1F3864</item>
+        <item name="android:navigationBarColor">#FFFFFF</item>
+        <item name="android:windowBackground">#F4F6FA</item>
+        <item name="android:colorPrimary">@color/azul</item>
+        <item name="android:colorPrimaryDark">@color/azul</item>
+        <item name="android:colorAccent">@color/azul</item>
+        <item name="android:colorControlActivated">@color/azul</item>
+        <item name="android:colorControlHighlight">@color/azul_claro</item>
+        
+        <item name="android:datePickerStyle">@style/SelectorFecha</item>
+        <item name="android:timePickerStyle">@style/SelectorHora</item>
+    </style>
+</resources>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "254205437918",
+    "project_id": "sevetco-dd27e",
+    "storage_bucket": "sevetco-dd27e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:254205437918:android:bd1393060f8830ac325f4f",
+        "android_client_info": {
+          "package_name": "com.sevetco.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "254205437918-ir1fs963n8955pms1gous4npem815cjm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sevetco.app",
+            "certificate_hash": "0f7ecfd2e10163c96a08ad22b040e2d101079d4b"
+          }
+        },
+        {
+          "client_id": "254205437918-qbi5s31mnqept58p2ga8n226prslh6oj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQBtcZ6q4HnmBiehVusLVLg3Xn9O5n5Yg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "254205437918-qbi5s31mnqept58p2ga8n226prslh6oj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,382 @@
+[
+    {
+        "merged": "com.sevetco.app-debug-5:/drawable_ic_close.png.flat",
+        "source": "com.sevetco.app-main-7:/drawable/ic_close.png"
+    },
+    {
+        "merged": "C:\\Users\\lgonz\\.gradle\\daemon\\8.13\\com.sevetco.app-debug-5:\\drawable-nodpi_lantonium_logo_black.png.flat",
+        "source": "C:\\Users\\lgonz\\.gradle\\daemon\\8.13\\com.sevetco.app-main-7:\\drawable-nodpi\\lantonium_logo_black.png"
+    },
+    {
+        "merged": "com.sevetco.app-debug-5:/drawable_ic_settings.png.flat",
+        "source": "com.sevetco.app-main-7:/drawable/ic_settings.png"
+    },
+    {
+        "merged": "com.sevetco.app-debug-5:/drawable_ic_vaccines.png.flat",
+        "source": "com.sevetco.app-main-7:/drawable/ic_vaccines.png"
+    },
+    {
+        "merged": "C:\\Users\\lgonz\\.gradle\\daemon\\8.13\\com.sevetco.app-debug-5:\\drawable-nodpi_whatsapp.png.flat",
+        "source": "C:\\Users\\lgonz\\.gradle\\daemon\\8.13\\com.sevetco.app-main-7:\\drawable-nodpi\\whatsapp.png"
+    },
+    {
+        "merged": "C:\\Users\\lgonz\\.gradle\\daemon\\8.13\\com.sevetco.app-debug-5:\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\lgonz\\.gradle\\daemon\\8.13\\com.sevetco.app-main-7:\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.sevetco.app-debug-5:/drawable_ic_straighten.png.flat",
+        "source": "com.sevetco.app-main-7:/drawable/ic_straighten.png"
+    },
+    {
+        "merged": "com.sevetco.app-debug-5:/drawable_ic_event.png.flat",
+        "source": "com.sevetco.app-main-7:/drawable/ic_event.png"
+    },
+    {
+        "merged": "com.sevetco.app-debug-5:/drawable_ic_event_busy.png.flat",
+        "source": "com.sevetco.app-main-7:/drawable/ic_event_busy.png"
+    },
+    {
+        "merged": "C:\\Users\\lgonz\\.gradle\\daemon\\8.13\\com.sevetco.app-debug-5:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\lgonz\\.gradle\\daemon\\8.13\\com.sevetco.app-main-7:\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "com.sevetco.app-debug-5:/drawable_ic_payments.png.flat",
+        "source": "com.sevetco.app-main-7:/drawable/ic_payments.png"
+    },
+    {
+        "merged": "com.sevetco.app-debug-5:/drawable_ic_my_location.png.flat",
+        "source": "com.sevetco.app-main-7:/drawable/ic_my_location.png"
+    },
+    {
+        "merged": "com.sevetco.app-debug-5:/drawable_ic_card_membership.png.flat",
+        "source": "com.sevetco.app-main-7:/drawable/ic_card_membership.png"
+    },
+    {
+        "merged": "com.sevetco.app-debug-5:/drawable_ic_list_alt.png.flat",
+        "source": "com.sevetco.app-main-7:/drawable/ic_list_alt.png"
+    },
+    {
+        "merged": "C:\\Users\\lgonz\\.gradle\\daemon\\8.13\\com.sevetco.app-debug-5:\\mipmap-mdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\lgonz\\.gradle\\daemon\\8.13\\com.sevetco.app-main-7:\\mipmap-mdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "com.sevetco.app-debug-5:/drawable_ic_autorenew.png.flat",
+        "source": "com.sevetco.app-main-7:/drawable/ic_autorenew.png"
+    },
+    {
+        "merged": "com.sevetco.app-debug-5:/drawable_ic_add_circle.png.flat",
+        "source": "com.sevetco.app-main-7:/drawable/ic_add_circle.png"
+    },
+    {
+        "merged": "com.sevetco.app-debug-5:/drawable_ic_person.png.flat",
+        "source": "com.sevetco.app-main-7:/drawable/ic_person.png"
+    },
+    {
+        "merged": "C:\\Users\\lgonz\\.gradle\\daemon\\8.13\\com.sevetco.app-debug-5:\\mipmap-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\lgonz\\.gradle\\daemon\\8.13\\com.sevetco.app-main-7:\\mipmap-xxxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\lgonz\\.gradle\\daemon\\8.13\\com.sevetco.app-debug-5:\\mipmap-xhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\lgonz\\.gradle\\daemon\\8.13\\com.sevetco.app-main-7:\\mipmap-xhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "com.sevetco.app-debug-5:/drawable_ic_login.png.flat",
+        "source": "com.sevetco.app-main-7:/drawable/ic_login.png"
+    },
+    {
+        "merged": "C:\\Users\\lgonz\\.gradle\\daemon\\8.13\\com.sevetco.app-debug-5:\\drawable-nodpi_linkedin.png.flat",
+        "source": "C:\\Users\\lgonz\\.gradle\\daemon\\8.13\\com.sevetco.app-main-7:\\drawable-nodpi\\linkedin.png"
+    },
+    {
+        "merged": "C:\\Users\\lgonz\\.gradle\\daemon\\8.13\\com.sevetco.app-debug-5:\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\lgonz\\.gradle\\daemon\\8.13\\com.sevetco.app-main-7:\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "com.sevetco.app-debug-5:/drawable_ic_chevron_left.png.flat",
+        "source": "com.sevetco.app-main-7:/drawable/ic_chevron_left.png"
+    },
+    {
+        "merged": "C:\\Users\\lgonz\\.gradle\\daemon\\8.13\\com.sevetco.app-debug-5:\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\lgonz\\.gradle\\daemon\\8.13\\com.sevetco.app-main-7:\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "com.sevetco.app-debug-5:/drawable_ic_delete.png.flat",
+        "source": "com.sevetco.app-main-7:/drawable/ic_delete.png"
+    },
+    {
+        "merged": "com.sevetco.app-debug-5:/drawable_ic_menu.png.flat",
+        "source": "com.sevetco.app-main-7:/drawable/ic_menu.png"
+    },
+    {
+        "merged": "com.sevetco.app-debug-5:/drawable_ic_download.png.flat",
+        "source": "com.sevetco.app-main-7:/drawable/ic_download.png"
+    },
+    {
+        "merged": "C:\\Users\\lgonz\\.gradle\\daemon\\8.13\\com.sevetco.app-debug-5:\\drawable-nodpi_github.png.flat",
+        "source": "C:\\Users\\lgonz\\.gradle\\daemon\\8.13\\com.sevetco.app-main-7:\\drawable-nodpi\\github.png"
+    },
+    {
+        "merged": "com.sevetco.app-debug-5:/drawable_ic_cancel.png.flat",
+        "source": "com.sevetco.app-main-7:/drawable/ic_cancel.png"
+    },
+    {
+        "merged": "com.sevetco.app-debug-5:/drawable_ic_task_alt.png.flat",
+        "source": "com.sevetco.app-main-7:/drawable/ic_task_alt.png"
+    },
+    {
+        "merged": "C:\\Users\\lgonz\\.gradle\\daemon\\8.13\\com.sevetco.app-debug-5:\\drawable_logo_app.png.flat",
+        "source": "C:\\Users\\lgonz\\.gradle\\daemon\\8.13\\com.sevetco.app-main-7:\\drawable\\logo_app.png"
+    },
+    {
+        "merged": "com.sevetco.app-debug-5:/drawable_ic_star_rate.png.flat",
+        "source": "com.sevetco.app-main-7:/drawable/ic_star_rate.png"
+    },
+    {
+        "merged": "C:\\Users\\lgonz\\.gradle\\daemon\\8.13\\com.sevetco.app-debug-5:\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\lgonz\\.gradle\\daemon\\8.13\\com.sevetco.app-main-7:\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "com.sevetco.app-debug-5:/drawable_ic_notifications.png.flat",
+        "source": "com.sevetco.app-main-7:/drawable/ic_notifications.png"
+    },
+    {
+        "merged": "com.sevetco.app-debug-5:/drawable_ic_edit.png.flat",
+        "source": "com.sevetco.app-main-7:/drawable/ic_edit.png"
+    },
+    {
+        "merged": "com.sevetco.app-debug-5:/drawable_ic_calendar_checklist.png.flat",
+        "source": "com.sevetco.app-main-7:/drawable/ic_calendar_checklist.png"
+    },
+    {
+        "merged": "com.sevetco.app-debug-5:/drawable_ic_person_add.png.flat",
+        "source": "com.sevetco.app-main-7:/drawable/ic_person_add.png"
+    },
+    {
+        "merged": "C:\\Users\\lgonz\\.gradle\\daemon\\8.13\\com.sevetco.app-debug-5:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\lgonz\\.gradle\\daemon\\8.13\\com.sevetco.app-main-7:\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "com.sevetco.app-debug-5:/drawable_ic_pets.png.flat",
+        "source": "com.sevetco.app-main-7:/drawable/ic_pets.png"
+    },
+    {
+        "merged": "com.sevetco.app-debug-5:/drawable_ic_arrow_back.png.flat",
+        "source": "com.sevetco.app-main-7:/drawable/ic_arrow_back.png"
+    },
+    {
+        "merged": "com.sevetco.app-debug-5:/drawable_ic_local_florist.png.flat",
+        "source": "com.sevetco.app-main-7:/drawable/ic_local_florist.png"
+    },
+    {
+        "merged": "com.sevetco.app-debug-5:/drawable_ic_support_agent.png.flat",
+        "source": "com.sevetco.app-main-7:/drawable/ic_support_agent.png"
+    },
+    {
+        "merged": "C:\\Users\\lgonz\\.gradle\\daemon\\8.13\\com.sevetco.app-debug-5:\\drawable-nodpi_luis.jpg.flat",
+        "source": "C:\\Users\\lgonz\\.gradle\\daemon\\8.13\\com.sevetco.app-main-7:\\drawable-nodpi\\luis.jpg"
+    },
+    {
+        "merged": "com.sevetco.app-debug-5:/drawable_ic_key.png.flat",
+        "source": "com.sevetco.app-main-7:/drawable/ic_key.png"
+    },
+    {
+        "merged": "C:\\Users\\lgonz\\.gradle\\daemon\\8.13\\com.sevetco.app-debug-5:\\drawable-nodpi_outlook.png.flat",
+        "source": "C:\\Users\\lgonz\\.gradle\\daemon\\8.13\\com.sevetco.app-main-7:\\drawable-nodpi\\outlook.png"
+    },
+    {
+        "merged": "C:\\Users\\lgonz\\.gradle\\daemon\\8.13\\com.sevetco.app-debug-5:\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\lgonz\\.gradle\\daemon\\8.13\\com.sevetco.app-main-7:\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "com.sevetco.app-debug-5:/drawable_ic_shield_person.png.flat",
+        "source": "com.sevetco.app-main-7:/drawable/ic_shield_person.png"
+    },
+    {
+        "merged": "com.sevetco.app-debug-5:/drawable_ic_print.png.flat",
+        "source": "com.sevetco.app-main-7:/drawable/ic_print.png"
+    },
+    {
+        "merged": "C:\\Users\\lgonz\\.gradle\\daemon\\8.13\\com.sevetco.app-debug-5:\\mipmap-xxhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\lgonz\\.gradle\\daemon\\8.13\\com.sevetco.app-main-7:\\mipmap-xxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "com.sevetco.app-debug-5:/drawable_ic_pending_actions.png.flat",
+        "source": "com.sevetco.app-main-7:/drawable/ic_pending_actions.png"
+    },
+    {
+        "merged": "com.sevetco.app-debug-5:/drawable_ic_warning.png.flat",
+        "source": "com.sevetco.app-main-7:/drawable/ic_warning.png"
+    },
+    {
+        "merged": "com.sevetco.app-debug-5:/drawable_ic_calendar_month.png.flat",
+        "source": "com.sevetco.app-main-7:/drawable/ic_calendar_month.png"
+    },
+    {
+        "merged": "com.sevetco.app-debug-5:/drawable_ic_badge.png.flat",
+        "source": "com.sevetco.app-main-7:/drawable/ic_badge.png"
+    },
+    {
+        "merged": "C:\\Users\\lgonz\\.gradle\\daemon\\8.13\\com.sevetco.app-debug-5:\\mipmap-hdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\lgonz\\.gradle\\daemon\\8.13\\com.sevetco.app-main-7:\\mipmap-hdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "com.sevetco.app-debug-5:/drawable_ic_schedule.png.flat",
+        "source": "com.sevetco.app-main-7:/drawable/ic_schedule.png"
+    },
+    {
+        "merged": "C:\\Users\\lgonz\\.gradle\\daemon\\8.13\\com.sevetco.app-debug-5:\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\lgonz\\.gradle\\daemon\\8.13\\com.sevetco.app-main-7:\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "com.sevetco.app-debug-5:/drawable_ic_event_available.png.flat",
+        "source": "com.sevetco.app-main-7:/drawable/ic_event_available.png"
+    },
+    {
+        "merged": "com.sevetco.app-debug-5:/drawable_ic_cake.png.flat",
+        "source": "com.sevetco.app-main-7:/drawable/ic_cake.png"
+    },
+    {
+        "merged": "C:\\Users\\lgonz\\.gradle\\daemon\\8.13\\com.sevetco.app-debug-5:\\drawable_ic_visibility.png.flat",
+        "source": "C:\\Users\\lgonz\\.gradle\\daemon\\8.13\\com.sevetco.app-main-7:\\drawable\\ic_visibility.png"
+    },
+    {
+        "merged": "com.sevetco.app-debug-5:/drawable_ic_logout.png.flat",
+        "source": "com.sevetco.app-main-7:/drawable/ic_logout.png"
+    },
+    {
+        "merged": "com.sevetco.app-debug-5:/drawable_ic_check_circle.png.flat",
+        "source": "com.sevetco.app-main-7:/drawable/ic_check_circle.png"
+    },
+    {
+        "merged": "C:\\Users\\lgonz\\.gradle\\daemon\\8.13\\com.sevetco.app-debug-5:\\drawable_ic_visibility_off.png.flat",
+        "source": "C:\\Users\\lgonz\\.gradle\\daemon\\8.13\\com.sevetco.app-main-7:\\drawable\\ic_visibility_off.png"
+    },
+    {
+        "merged": "C:\\Users\\lgonz\\.gradle\\daemon\\8.13\\com.sevetco.app-debug-5:\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\lgonz\\.gradle\\daemon\\8.13\\com.sevetco.app-main-7:\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.sevetco.app-debug-5:/drawable_ic_notifications_active.png.flat",
+        "source": "com.sevetco.app-main-7:/drawable/ic_notifications_active.png"
+    },
+    {
+        "merged": "C:\\Users\\lgonz\\.gradle\\daemon\\8.13\\com.sevetco.app-debug-5:\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\lgonz\\.gradle\\daemon\\8.13\\com.sevetco.app-main-7:\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "com.sevetco.app-debug-5:/drawable_ic_chevron_right.png.flat",
+        "source": "com.sevetco.app-main-7:/drawable/ic_chevron_right.png"
+    },
+    {
+        "merged": "C:\\Users\\lgonz\\.gradle\\daemon\\8.13\\com.sevetco.app-debug-5:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\lgonz\\.gradle\\daemon\\8.13\\com.sevetco.app-main-7:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\lgonz\\.gradle\\daemon\\8.13\\com.sevetco.app-debug-5:\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\lgonz\\.gradle\\daemon\\8.13\\com.sevetco.app-main-7:\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.sevetco.app-debug-5:/drawable_ic_content_cut.png.flat",
+        "source": "com.sevetco.app-main-7:/drawable/ic_content_cut.png"
+    },
+    {
+        "merged": "C:\\Users\\lgonz\\.gradle\\daemon\\8.13\\com.sevetco.app-debug-5:\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\lgonz\\.gradle\\daemon\\8.13\\com.sevetco.app-main-7:\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.sevetco.app-debug-5:/drawable_ic_photo_camera.png.flat",
+        "source": "com.sevetco.app-main-7:/drawable/ic_photo_camera.png"
+    },
+    {
+        "merged": "com.sevetco.app-debug-5:/drawable_ic_medical_services.png.flat",
+        "source": "com.sevetco.app-main-7:/drawable/ic_medical_services.png"
+    },
+    {
+        "merged": "com.sevetco.app-debug-5:/drawable_ic_error.png.flat",
+        "source": "com.sevetco.app-main-7:/drawable/ic_error.png"
+    },
+    {
+        "merged": "com.sevetco.app-debug-5:/drawable_ic_house.png.flat",
+        "source": "com.sevetco.app-main-7:/drawable/ic_house.png"
+    },
+    {
+        "merged": "C:\\Users\\lgonz\\.gradle\\daemon\\8.13\\com.sevetco.app-debug-5:\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\lgonz\\.gradle\\daemon\\8.13\\com.sevetco.app-main-7:\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\lgonz\\.gradle\\daemon\\8.13\\com.sevetco.app-debug-5:\\drawable_logo_sevetco.png.flat",
+        "source": "C:\\Users\\lgonz\\.gradle\\daemon\\8.13\\com.sevetco.app-main-7:\\drawable\\logo_sevetco.png"
+    },
+    {
+        "merged": "com.sevetco.app-debug-5:/drawable_ic_expand_more.png.flat",
+        "source": "com.sevetco.app-main-7:/drawable/ic_expand_more.png"
+    },
+    {
+        "merged": "com.sevetco.app-debug-5:/drawable_ic_google.png.flat",
+        "source": "com.sevetco.app-main-7:/drawable/ic_google.png"
+    },
+    {
+        "merged": "C:\\Users\\lgonz\\.gradle\\daemon\\8.13\\com.sevetco.app-debug-5:\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\lgonz\\.gradle\\daemon\\8.13\\com.sevetco.app-main-7:\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "com.sevetco.app-debug-5:/drawable_ic_star.png.flat",
+        "source": "com.sevetco.app-main-7:/drawable/ic_star.png"
+    },
+    {
+        "merged": "com.sevetco.app-debug-5:/drawable_ic_checklist.png.flat",
+        "source": "com.sevetco.app-main-7:/drawable/ic_checklist.png"
+    },
+    {
+        "merged": "C:\\Users\\lgonz\\.gradle\\daemon\\8.13\\com.sevetco.app-debug-5:\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\lgonz\\.gradle\\daemon\\8.13\\com.sevetco.app-main-7:\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\lgonz\\.gradle\\daemon\\8.13\\com.sevetco.app-debug-5:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\lgonz\\.gradle\\daemon\\8.13\\com.sevetco.app-main-7:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "com.sevetco.app-debug-5:/drawable_ic_account_circle.png.flat",
+        "source": "com.sevetco.app-main-7:/drawable/ic_account_circle.png"
+    },
+    {
+        "merged": "com.sevetco.app-debug-5:/drawable_ic_fitness_center.png.flat",
+        "source": "com.sevetco.app-main-7:/drawable/ic_fitness_center.png"
+    },
+    {
+        "merged": "com.sevetco.app-debug-5:/drawable_ic_insights.png.flat",
+        "source": "com.sevetco.app-main-7:/drawable/ic_insights.png"
+    },
+    {
+        "merged": "com.sevetco.app-debug-5:/drawable_ic_storefront.png.flat",
+        "source": "com.sevetco.app-main-7:/drawable/ic_storefront.png"
+    },
+    {
+        "merged": "com.sevetco.app-debug-5:/drawable_ic_edit_calendar.png.flat",
+        "source": "com.sevetco.app-main-7:/drawable/ic_edit_calendar.png"
+    },
+    {
+        "merged": "com.sevetco.app-debug-5:/drawable_ic_home.png.flat",
+        "source": "com.sevetco.app-main-7:/drawable/ic_home.png"
+    },
+    {
+        "merged": "com.sevetco.app-debug-5:/drawable_ic_workspace_premium.png.flat",
+        "source": "com.sevetco.app-main-7:/drawable/ic_workspace_premium.png"
+    },
+    {
+        "merged": "com.sevetco.app-debug-5:/drawable_ic_dashboard.png.flat",
+        "source": "com.sevetco.app-main-7:/drawable/ic_dashboard.png"
+    },
+    {
+        "merged": "com.sevetco.app-debug-5:/drawable_ic_search.png.flat",
+        "source": "com.sevetco.app-main-7:/drawable/ic_search.png"
+    },
+    {
+        "merged": "com.sevetco.app-debug-5:/drawable_ic_price_check.png.flat",
+        "source": "com.sevetco.app-main-7:/drawable/ic_price_check.png"
+    },
+    {
+        "merged": "com.sevetco.app-debug-5:/drawable_ic_location_on.png.flat",
+        "source": "com.sevetco.app-main-7:/drawable/ic_location_on.png"
+    }
+]

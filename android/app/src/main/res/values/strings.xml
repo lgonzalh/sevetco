@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SEVETCO</string>
+    <!-- Clave de Google Maps (Maps SDK for Android). Esta restringida al
+         paquete com.sevetco.app y a la huella SHA-1 del equipo de pruebas. -->
+    <string name="google_maps_key">AIzaSyA8DulmTdAl07MJ8UOUT5BpGEvqSbbH3Uc</string>
+</resources>
+

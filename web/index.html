@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SEVETCO - Panel de administracion y proveedores</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="vendor/leaflet/leaflet.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ================= Inicio de sesion ================= -->
+  <section id="pantalla-login" class="login">
+    <div class="card shadow-lg login__tarjeta">
+      <div class="card-body p-4 p-md-5">
+        <div class="text-center mb-4">
+          <img src="../assets/icons/shared/pets.png" alt="" class="login__logo">
+          <h1 class="h3 fw-bold mt-2 mb-1 login__titulo">SEVETCO</h1>
+          <p class="text-secondary small mb-0">
+            Plataforma Integral de Servicios Veterinarios a Domicilio
+          </p>
+        </div>
+
+        <ul class="nav nav-pills nav-fill mb-3" id="pestanas-acceso">
+          <li class="nav-item">
+            <button class="nav-link active" data-modo="ingresar" type="button">Ingresar</button>
+          </li>
+          <li class="nav-item">
+            <button class="nav-link" data-modo="registrar" type="button">Registrarse</button>
+          </li>
+        </ul>
+
+        <form id="form-acceso" class="vstack gap-2">
+          <div id="grupo-nombre" class="d-none">
+            <label class="form-label small fw-semibold" for="acceso-nombre">Nombre completo</label>
+            <input id="acceso-nombre" class="form-control" type="text" autocomplete="name">
+          </div>
+          <div>
+            <label class="form-label small fw-semibold" for="acceso-correo">Correo electronico</label>
+            <input id="acceso-correo" class="form-control" type="email" autocomplete="email" required>
+          </div>
+          <div>
+            <label class="form-label small fw-semibold" for="acceso-clave">Contrasena</label>
+            <div class="campo-clave">
+              <input id="acceso-clave" class="form-control" type="password"
+                autocomplete="current-password" required>
+              <button type="button" id="btn-ver-clave" class="ojo-clave"
+                aria-label="Mostrar contrasena">
+                <img id="icono-ver-clave" src="../assets/icons/shared/visibility.png" alt="">
+              </button>
+            </div>
+          </div>
+          <div class="text-end">
+            <button type="button" id="btn-olvide" class="btn btn-link btn-sm p-0">
+              Olvide mi contrasena
+            </button>
+          </div>
+          <button id="btn-acceso" class="btn btn-sevetco w-100 mt-2" type="submit">Ingresar</button>
+        </form>
+
+        <div class="d-flex align-items-center my-3">
+          <hr class="flex-grow-1">
+          <span class="px-2 text-secondary small">o</span>
+          <hr class="flex-grow-1">
+        </div>
+
+        <button id="btn-google" class="btn btn-outline-secondary w-100 d-flex align-items-center justify-content-center gap-2">
+          <img src="../assets/icons/shared/google.png" alt="" class="icono-18">
+          Continuar con Google
+        </button>
+
+        <p id="login-mensaje" class="text-danger small text-center mt-3 mb-0"></p>
+        <p class="text-secondary small text-center mb-0 mt-2">
+          Acceso del panel para administradores y proveedores.
+        </p>
+        <a id="descarga-apk" class="btn btn-outline-secondary w-100 d-flex align-items-center justify-content-center gap-2 mt-3"
+          href="https://firebasestorage.googleapis.com/v0/b/sevetco-dd27e.firebasestorage.app/o/sevetco.apk?alt=media&amp;token=5cfc023e-4884-490d-8c96-3c5a7a61ddbd"
+          download="sevetco.apk" rel="noopener">
+          <img src="../assets/icons/web/download.png" alt="" class="icono-18">
+          Descargar la aplicacion movil (Android)
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= Aplicacion ================= -->
+  <div id="app" class="app d-none">
+    <aside class="menu">
+      <div class="menu__marca">
+        <img src="../assets/icons/shared/pets.png" alt="">
+        <span>SEVETCO</span>
+      </div>
+      <nav id="menu-nav" class="menu__nav"></nav>
+      <div class="menu__pie">
+        <div class="menu__usuario">
+          <img id="usuario-foto" src="../assets/icons/shared/account_circle.png" alt="">
+          <div class="text-truncate">
+            <strong id="usuario-nombre" class="d-block text-truncate">-</strong>
+            <small id="usuario-rol" class="d-block text-truncate">-</small>
+          </div>
+        </div>
+        <button id="btn-salir" class="btn btn-sm btn-outline-light w-100">
+          <img src="../assets/icons/shared/logout.png" alt="" class="icono-16">
+          Cerrar sesion
+        </button>
+      </div>
+    </aside>
+
+    <main class="contenido">
+      <header class="cabecera">
+        <h2 id="titulo-vista">Panel</h2>
+        <div id="cabecera-acciones" class="d-flex gap-2"></div>
+      </header>
+      <div id="vista" class="vista"></div>
+    </main>
+  </div>
+
+  <!-- ================= Modal ================= -->
+  <div id="modal" class="modal fade" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 id="modal-titulo" class="modal-title">Editar</h5>
+          <button type="button" class="btn-close" id="modal-cerrar" aria-label="Cerrar"></button>
+        </div>
+        <div id="modal-cuerpo" class="modal-body"></div>
+        <div id="modal-pie" class="modal-footer"></div>
+      </div>
+    </div>
+  </div>
+
+  <div id="aviso" class="aviso d-none"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="vendor/leaflet/leaflet.js"></script>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
+

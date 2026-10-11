@@ -1,0 +1,139 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function sesion() {
+      return request.auth != null;
+    }
+
+    function uid() {
+      return request.auth.uid;
+    }
+
+    function hayPerfil() {
+      return sesion() && exists(/databases/$(database)/documents/usuario/$(uid()));
+    }
+
+    function tipo() {
+      return get(/databases/$(database)/documents/usuario/$(uid())).data.tipo_usuario;
+    }
+
+    function esAdmin() {
+      return hayPerfil() && tipo() == 'ADMIN';
+    }
+
+    function esProveedor() {
+      return hayPerfil() && tipo() == 'PROVEEDOR';
+    }
+
+    function esPropietario() {
+      return hayPerfil() && tipo() == 'PROPIETARIO';
+    }
+
+    function esMio(campo) {
+      return sesion() && resource.data[campo] == uid();
+    }
+
+    function meManda(campo) {
+      return sesion() && request.resource.data[campo] == uid();
+    }
+
+    match /usuario/{id} {
+      allow read: if sesion();
+      allow create: if esAdmin()
+        || (id == uid() && request.resource.data.tipo_usuario == 'PROPIETARIO');
+      allow update: if esAdmin()
+        || (id == uid()
+            && request.resource.data.tipo_usuario == resource.data.tipo_usuario
+            && request.resource.data.estado == resource.data.estado);
+      allow delete: if esAdmin();
+    }
+
+    match /proveedor/{id} {
+      allow read: if sesion();
+      allow write: if esAdmin();
+    }
+
+    match /mascota/{id} {
+      allow read: if esMio('id_propietario') || esAdmin() || esProveedor();
+      allow create: if esAdmin() || (esPropietario() && meManda('id_propietario'));
+      allow update, delete: if (esMio('id_propietario') && esPropietario()) || esAdmin();
+    }
+
+    match /plan/{id} {
+      allow read: if sesion();
+      allow write: if esAdmin();
+    }
+
+    match /servicio/{id} {
+      allow read: if sesion();
+      allow write: if esAdmin();
+    }
+
+    match /plan_servicio/{id} {
+      allow read: if sesion();
+      allow write: if esAdmin();
+    }
+
+    match /suscripcion/{id} {
+      allow read: if esMio('id_propietario') || esAdmin();
+      allow create: if esAdmin() || (esPropietario() && meManda('id_propietario'));
+      allow update, delete: if esAdmin();
+    }
+
+    match /cita/{id} {
+      allow read: if esMio('id_propietario') || esMio('id_proveedor') || esAdmin();
+      allow create: if esAdmin() || (esPropietario() && meManda('id_propietario'));
+      allow update: if (esAdmin() || esMio('id_propietario') || esMio('id_proveedor'))
+        && (esAdmin()
+            || (request.resource.data.id_propietario == resource.data.id_propietario
+                && request.resource.data.id_mascota == resource.data.id_mascota
+                && request.resource.data.id_servicio == resource.data.id_servicio));
+      allow delete: if esAdmin();
+    }
+
+    match /atencion/{id} {
+      allow read: if esMio('id_propietario') || esMio('id_proveedor') || esAdmin();
+      allow create, update: if esAdmin() || (esProveedor() && meManda('id_proveedor'));
+      allow delete: if esAdmin();
+    }
+
+    match /pago/{id} {
+      allow read: if esMio('id_propietario') || esAdmin();
+      allow create, update: if esAdmin() || meManda('id_propietario');
+      allow delete: if esAdmin();
+    }
+
+    match /trazabilidad_cita/{id} {
+      allow read: if esMio('id_propietario') || esMio('id_proveedor') || esAdmin();
+      allow create: if esAdmin() || meManda('id_propietario') || meManda('id_proveedor');
+      allow update, delete: if esAdmin();
+    }
+
+    match /ruta_desplazamiento/{id} {
+      allow read: if esMio('id_propietario') || esMio('id_proveedor') || esAdmin();
+      allow create: if esAdmin() || meManda('id_propietario') || meManda('id_proveedor');
+      allow update: if esAdmin() || esMio('id_proveedor') || esMio('id_propietario');
+      allow delete: if esAdmin();
+    }
+
+    match /agenda/{id} {
+      allow read: if sesion();
+      allow create, update: if esAdmin() || meManda('id_propietario') || meManda('id_proveedor');
+      allow delete: if esAdmin();
+    }
+
+    match /eventos/{id} {
+      allow read: if sesion();
+      allow write: if esAdmin();
+    }
+
+    match /promociones/{id} {
+      allow read: if sesion();
+      allow write: if esAdmin();
+    }
+
+  }
+}
+

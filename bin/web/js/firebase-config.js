@@ -3,7 +3,7 @@
 // firebase/firestore.rules.
 
 export const FIREBASE_CONFIG = {
-  apiKey: "AIzaSyDZS1LIleIq9f5xD6APv_cvii05lTr8ct4",
+  apiKey: "AIzaSyAbM3ftHMDjDxkgHH23cuLp8YfWk4fl84A",
   authDomain: "sevetco-dd27e.firebaseapp.com",
   projectId: "sevetco-dd27e",
   storageBucket: "sevetco-dd27e.firebasestorage.app",
@@ -17,6 +17,6 @@ export const ICONOS = './assets/icons';
 
 // Clave de Google Maps (Maps JavaScript API) para el mapa de las rutas.
 // Es la misma clave del proyecto; Google la protege por dominio y por API.
-export const MAPS_KEY = 'AIzaSyA8DulmTdAl07MJ8UOUT5BpGEvqSbbH3Uc';
+export const MAPS_KEY = 'AIzaSyDhdu-jX58ybXvFY3fyD1RsgtkJ9CNwjkQ';
 
 

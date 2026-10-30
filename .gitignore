@@ -1,2 +1,14 @@
 # graft's local graph cache — regenerable, not committed (run `graft build`).
 /graft/
+
+# Artefactos de compilacion de Android (APKs, dex, recursos generados).
+android/app/build/
+android/build/
+android/.gradle/
+local.properties
+
+# APKs publicados: se generan y se suben aparte, no se versionan.
+*.apk
+
+# Cache local de despliegue de Firebase.
+.firebase/
